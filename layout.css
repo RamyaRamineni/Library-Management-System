@@ -1,0 +1,33 @@
+#header{			
+			color: white;
+			text-align: center;
+			background-color: grey;
+			padding-top: 15px;
+			padding-bottom: 15px;			
+			width:100%;	
+			z-index: 1000;	
+			float: left;
+  
+		}
+#navigation{
+	clear: both;
+	margin-top: 150px;
+			display: block;
+			float: left;
+			position: fixed;
+			border-top: 1px solid grey;
+			border-right: 1px solid grey;
+			border-bottom: 1px solid grey;
+			width: 200px;
+   			height: 100%; 
+}
+#content{
+	clear: both;
+	margin-right: 30px;
+	margin-left: 250px;	
+
+}
+table,tr,th,td
+            {
+                border: 1px solid black;
+            }

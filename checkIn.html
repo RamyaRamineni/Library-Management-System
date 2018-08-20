@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PHP HTML TABLE DATA SEARCH</title>
+        
+        <link rel="stylesheet" href="layout.css">  
+    </head>
+    <body>
+    	<div id = "header"><h1>checking in a book</h1></div>
+        <div id = "navigation">
+            <ul>
+                <li><a href="searchBook.php">Search a book</a></li>
+                <li><a href="checkOut.html">Check out a book</a></li>
+                <li><a href="checkIn.html">Check in a book</a></li>
+                <li><a href="addBorrower.html">Add borrower</a></li>
+                <li><a href="fines.php">Fines</a></li>
+            </ul>
+        </div>
+        <div id = content>
+        	<form action = "checkIn.php" method = "post">
+            <br><br>
+        	<input type="text" name="isbn" placeholder="isbn"><br><br>
+        	<input type="text" name="borrowerId" placeholder="borrower id"><br><br>
+        	<input type="submit"/>
+        	</form>
+        </div>
+    </body>
+  </html>
